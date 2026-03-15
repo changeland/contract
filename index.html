@@ -41,8 +41,8 @@
       />
     </div>
     <p class="text-center text-lg mb-8" style="color: white;">
-      Παρακαλούμε φορτώστε το υπογεγραμμένο συμφωνητικό εδώ για να μας το στείλετε. 
-      Χρησιμοποιήστε το email από το οποίο σας στείλαμε το συμφωνητικό. Διαφορετικά δε θα το λάβουμε.
+      Παρακαλούμε φορτώστε το υπογεγραμμένο έγγραφο εδώ για να μας το στείλετε. 
+      Χρησιμοποιήστε το email από το οποίο σας στείλαμε το έγγραφο. Διαφορετικά δε θα το λάβουμε.
     </p>
     <div class="bg-white shadow-lg rounded-lg p-8" style="background-color:rgb(238, 218, 197);color: white;">
       <h3 class="text-2xl font-bold text-center text-gray-800 mb-6">Υποβάλετε τα στοιχεία σας</h3>
@@ -57,7 +57,7 @@
             <!-- File Upload Section -->
           
             <label class="block text-gray-700 font-medium">
-              Φορτώστε το υπογεγραμμένο συμφωνητικό (PDF ή φωτογραφία) <span class="text-red-500">*</span>
+              Φορτώστε το υπογεγραμμένο έγγραφο (PDF ή φωτογραφία) <span class="text-red-500">*</span>
             </label>
           
             <div class="relative flex items-center justify-center border-dashed border-2 border-gray-300 p-4 rounded-lg bg-gray-50">
@@ -70,7 +70,7 @@
                   required
               />
               <div id="fileDisplay" class="text-center">
-                  <p class="text-gray-500 font-medium">Σύρετε και αφήστε το αποδεικτικό εδώ ή κλικ για να το φορτώσετε</p>
+                  <p class="text-gray-500 font-medium">Σύρετε και αφήστε το έγγραφο εδώ ή κλικ για να το φορτώσετε</p>
                   <p class="text-sm text-gray-600 mt-2">Upload 1 supported file. Max 10 MB.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@
         if (fileSize > 10) {
           alert('Το αρχείο πρέπει να είναι μικρότερο από 10MB.');
           proofField.value = '';
-          fileDisplay.innerHTML = '<p class="text-gray-500 font-medium">Σύρετε και αφήστε το αποδεικτικό εδώ ή κλικ για να το φορτώσετε</p><p class="text-sm text-gray-600 mt-2">Upload 1 supported file. Max 10 MB.</p>';
+          fileDisplay.innerHTML = '<p class="text-gray-500 font-medium">Σύρετε και αφήστε το έγγραφο εδώ ή κλικ για να το φορτώσετε</p><p class="text-sm text-gray-600 mt-2">Upload 1 supported file. Max 10 MB.</p>';
           return;
         }
 
